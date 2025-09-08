@@ -27,6 +27,17 @@ p,a,input,select,button,span,li,label,textarea,option,title{
     --fs-text : 16px;    
 }
 /* 4 desktop */
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url('../img/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
 /* 5 tablet estilos responsive*/
 @media screen and (min-width:768px) and (max-width:1000px){
 
