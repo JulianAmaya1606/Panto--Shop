@@ -30,13 +30,112 @@ p,a,input,select,button,span,li,label,textarea,option,title{
 header{
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 140vh;
+    padding-top: 40px;
     background: url('../img/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg');
     background-size: cover;
     /* background-position: center; */
     background-position-x: center;
     background-position-y: bottom;
 }
+.bg-trasparente{
+    background: transparent;
+}
+
+header nav a.logo{
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 28px;
+    transition: .5s;
+
+}
+header nav a.logo:hover{
+    color: var(--white-color);
+    transform: scale(1.2);
+
+}
+#navbarNav li a{
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+}
+#navbarNav li a:hover{
+    border-bottom: 1px var(--white-color);
+
+}
+header .bag-button{
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: 25px;
+    position: relative;
+}
+header .bag-button .counter-products{
+    width: 26px;
+    height: 24x;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+#hero {
+    width: 100%;
+    text-align: center;
+    padding: 90px 200px;
+}
+#hero h2{
+    font-size: var(--fs-tittle1);
+    color: var(--white-color);
+    font-weight: 700;
+}
+#hero p{
+    color: var(--white-color);
+    font-size: var(--fs-tittle3);
+    padding: 40px 460px;
+    opacity: 80%;
+
+}
+#hero form{
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+#hero form input{
+    border-radius: 40px;
+    border: 2px solid #fff;
+    width: 370px;
+    padding: 15px 55px 15px 20px;
+    font-size: var(--fs-tittle4);
+    background: #ffffff57;
+    color: var(--white-color);  
+    outline: none;
+}
+#hero form input::placeholder{
+    color: #fff;
+    opacity: 80%;
+    font-size: 18px;
+}
+#hero form button{
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    right: 7%;
+
+
+}
+
+
 
 /* 5 tablet estilos responsive*/
 @media screen and (min-width:768px) and (max-width:1000px){
