@@ -21,8 +21,8 @@ p,a,input,select,button,span,li,label,textarea,option,title{
     --white-color: #fff;
     --dark-color : #1e1e1e;
     --fs-tittle1 : 80px;
-    --fs-tittle2 : 42px;
-    --fs-tittle3 : 24px;
+    --fs-tittle2 : 38px;
+    --fs-tittle3 : 22px;
     --fs-tittle4 : 18px;
     --fs-text : 16px;    
 }
@@ -131,9 +131,46 @@ header .bag-button .counter-products{
     position: absolute;
     top: 15%;
     right: 7%;
-
-
 }
+
+/* estilos main */
+
+#choosing-us{
+    width: 100%;
+    position: relative;
+    background: var(--white-color);
+    padding: 120px 0;
+}
+#choosing-us h2{
+    font-weight: 700;
+    font-size:var(--fs-tittle2);
+    color: var(--dark-color);
+    padding-top: 20px;
+}
+#choosing-us h3{
+    font-weight: 700;
+    font-size: var(--fs-tittle3);
+    color: var(--dark-color);
+}
+#choosing-us p{
+    font-size: var(--fs-text);
+    opacity: 80%;
+    margin-top: 15px;
+    color: var(--dark-color);
+}
+#choosing-us a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+#choosing-us a i{
+    margin-left: 4px;
+    transition: .5s;
+}
+#choosing-us a:hover i{
+    margin-left: 15px;
+}
+
+
 
 
 
