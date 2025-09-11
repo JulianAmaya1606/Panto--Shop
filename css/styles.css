@@ -490,15 +490,101 @@ header .bag-button .counter-products{
 #reviews .slick-arrow::before{
     color: #0d1b39;
 }
+footer {
+    padding: 40px 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+footer h3{
+    color: var(--dark-color);
+    font-size: 28px; 
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+footer p {
+    font-size: var(--fs-text);
+    color: var(--fs-text);
+    opacity: 80%;
+    padding-right: 250px;
+    margin: 6px 0;
 
-
-
+}
+footer h5{
+    color: #e58411;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+footer  a{
+    font-size: 15px;
+    margin: 6px 0;
+    padding: 8px 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--fs-text);
+    display: flex;
+    opacity: 80%;
+}
+footer .r p{
+    font-size: 15px;
+    margin: 6px;
+    padding: 8px 6px;
+    color: var(--fs-text);
+    opacity: 80%;
+    padding-bottom: 8px;
+}
+footer .s a i{
+    padding-right: 30px;
+    font-size: 18px;
+}
+footer .fondo{
+    margin-top: 100px;
+}
+footer .fondo p{
+    all: unset;
+    color: var(--fs-text);
+    opacity: 80%;
+    font-size: 15px;
+}
 
 
 
 /* 5 tablet estilos responsive*/
 @media screen and (min-width:768px) and (max-width:1000px){
+header
+ {
+    width: 105%;
+}
+#hero{
+    padding: 71px 90px;
+}
+#hero p{
+    padding: 50px 90px
+}
+#hero h2{
+    font-size: 60px;
+}
+#choosing-us h2{
+    margin-bottom: 100px;
+}
+#experiences .cont-img img {
+    width: 95%;
+    padding-top: 65px;
+}
+#experiences .cont-info p {
+    padding-right: 0;
+    padding-left: 30px;
+}
+#experiences .cont-info h3 {
+    text-align: center
+}
+#experiences .cont-info h2 {
+    text-align: center;
+    font-size: 35px;
 
+}
+#experiences .cont-info a {
+    padding-left: 30px;
 }
 /* 6 smartphone estilos responsive */
 @media screen and (min-width:320px) and (max-width:767px){
