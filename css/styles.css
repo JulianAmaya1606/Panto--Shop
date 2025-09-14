@@ -97,7 +97,7 @@ header .bag-button .counter-products{
 #hero p{
     color: var(--white-color);
     font-size: var(--fs-tittle3);
-    padding: 40px 460px;
+    padding: 40px 200px;
     opacity: 80%;
 
 }
@@ -586,7 +586,140 @@ header
 #experiences .cont-info a {
     padding-left: 30px;
 }
+}
 /* 6 smartphone estilos responsive */
 @media screen and (min-width:320px) and (max-width:767px){
-    
+/* 6 smartphone estilos responsive */
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #hero {
+        padding: 40px 15px;
+    }
+    #hero h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    #hero p {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    #hero form {
+        width: 100%;
+    }
+    #hero form input {
+        width: 100%;
+        font-size: 14px;
+    }
+    #hero form button {
+        right: 15px;
+        top: 20%;
+    }
+
+    #choosing-us {
+        padding: 60px 15px;
+        text-align: center;
+    }
+    #choosing-us h2 {
+        font-size: 26px;
+    }
+    #choosing-us h3 {
+        font-size: 18px;
+    }
+    #choosing-us p {
+        font-size: 14px;
+    }
+
+    #products h2 {
+        font-size: 26px;
+    }
+    #products ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 5px;
+    }
+    #products li button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    #products .slick-list {
+        padding: 80px 0;
+    }
+
+    #experiences {
+        padding: 60px 15px;
+    }
+    #experiences .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    #experiences .cont-img img {
+        width: 100%;
+        box-shadow: none;
+    }
+    #experiences .cont-info {
+        padding: 20px 0;
+    }
+    #experiences .cont-info h2 {
+        font-size: 28px;
+    }
+    #experiences .cont-info p {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    #materials {
+        padding: 60px 15px;
+    }
+    #materials .row {
+        flex-direction: column-reverse; /* primero texto, luego imagenes */
+        text-align: center;
+    }
+    #materials .cont-info {
+        padding: 20px 0;
+    }
+    #materials .cont-info h2 {
+        font-size: 26px;
+    }
+    #materials .cont-info p {
+        padding: 0;
+        font-size: 14px;
+    }
+    #materials .cont-img img {
+        width: 100%;
+        margin: 10px 0;
+        position: static !important;
+        box-shadow: none;
+    }
+
+    #reviews {
+        padding: 60px 15px;
+    }
+    #reviews h2 {
+        font-size: 26px;
+    }
+    #reviews .card-review .cont-info {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px 15px;
+    }
+    footer p {
+        padding-right: 0;
+    }
+    footer .row {
+        flex-direction: column;
+    }
+    footer .s {
+        justify-content: center;
+    }
+}
+
 }
